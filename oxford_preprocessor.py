@@ -5,8 +5,8 @@ from tqdm.auto import tqdm
 import numpy as np
 import cv2
 
-DATA_DIR =  './datasets/2014-11-14-16-34-33/stereo/right/'
-SAVE_DIR = './datasets/oxford/'
+DATA_DIR =  './data/2014-11-14-16-34-33/stereo/right/'
+SAVE_DIR = './data/oxford/'
 
 if not os.path.exists(SAVE_DIR):
     os.makedirs(SAVE_DIR)
